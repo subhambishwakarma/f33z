@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://1000logos.net/wp-content/uploads/2020/08/Imdb-logo.jpg" type="image/x-icon">
+    <title>IMDB Movie App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===Header Start=== -->
+    <header>
+        <div>
+            <h1 class="header">IMDB MOVIE APP</h1>
+        </div>
+    </header>
+    <!-- ===Header End=== -->
+    <!-- ===Search-Section Start=== -->
+    <section>
+        <div class="search-cont">
+            <div class="search-bars">
+                <img src="https://cdn-icons-png.flaticon.com/128/501/501884.png" alt="" width="30px">
+                <input id="api" type="text" value="c0c8d968"  placeholder="API_KEY">
+            </div>
+            <div class="search-bars">
+                <img src="https://cdn-icons-png.flaticon.com/128/2811/2811806.png" alt="" width="30px">
+                <input id="movie" type="search" placeholder="search"/>
+            </div>
+            <button id="search-btn">Search</button>
+        </div>
+    </section>
+    <!-- ===Search-Section End=== -->
+    <!-- ===Main-Section Start=== -->
+    <main>
+        <div class="loader">
+            <div class="buffer hide">
+            </div>
+        </div>
+
+        <div id="movie-container">
+           
+        </div>
+
+        <div class="error">
+            
+        </div>
+    </main>
+    <!-- ===Main-Section End=== -->
+    <script src="script.js"></script>
+</body>
+</html>
